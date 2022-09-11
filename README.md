@@ -37,6 +37,8 @@ Here is a [good starting point](https://github.com/TroyTae/game-of-life/issues?q
 
 This project's main use case is to allow users to explore various patterns in Conway's Game of Life. From a large selection, users are able to observe various patterns that arise from a known starting configuration and see how the cells automatically change. 
 
+This should prove to be especially useful for experimentation and observation, and serves the purpose as a lab tool on Conway's Game of Life very well.
+
 This is especially helpful for those interested in computational patterns and being able to directly observe a turing complete cellular automotan.
 
 ## Demo
@@ -45,7 +47,12 @@ Here is a demo of the 'favicon' pattern:
 
 ![Demo](./src/static/favicon.gif)  
 
+In this demo, a specific pattern of Conway's Game of Life is demonstrated. The grid starts with a specific starting configuration of squares.
+Starting with that configuration, the square grid will change in accordance to the rules of Conway's Game of Life.
+The demo cycles through several changes before resetting to the starting grid so that the overall pattern can be observed.
+
 For the complete collection of pattterns defined in this repository, please see [here](https://troytae.github.io/game-of-life/)
+Use the drop down menu to select different patterns. Each pattern has a different starting configuration that will affect how the overall square grid changes.
 
 ## Contributors
 
